@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 entry.target.classList.add('visible');
             }
         });
-    }, { threshold: 0.2 });
+    }, { threshold: 0.5 });
     
     fadeElements.forEach(element => {
         observer.observe(element);

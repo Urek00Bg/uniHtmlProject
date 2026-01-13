@@ -52,13 +52,13 @@ body{
 .dashboard_box p{
     padding:10px 0px 10px 0px;
     text-align: start;
-    color: #94a3b8;
+    color: #C2C4CB;
 }
 .inputs span, .inputs_log-expense span{
     font-weight: 100;
     font-size: 13px;
     align-self: center;
-    color: #94a3b8;
+    color: #69faa1;
 }
 .inputs input, .inputs_log-expense input{
     padding: 10px;
@@ -72,7 +72,7 @@ body{
     font-weight: bold;
     font-size: 16px;
     align-self: center;
-    color: #f1f5f9;
+    color: #C2C9D0;
 }
 .inputs button, .inputs_log-expense button{
     padding: 10px;
@@ -84,12 +84,23 @@ body{
     cursor: pointer;
     transition: .3s;
 }
+.inputs_log-expense button{
+    margin-top: 15px;
+}
 .inputs button:hover{
     opacity: .8;
     transition: .3s;
 }
 .inputs_log-expense{
     grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+input::placeholder{
+    color: #9D9D9B;
+}
+.inputs_buffer-goals{
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 

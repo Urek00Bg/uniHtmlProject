@@ -82,17 +82,24 @@
                     </div>
 
                     <div class="dashboard_box">
-                        <h2>Safety Buffers</h2>
-                        <p>Protect yourself from inflation or unexpected bills.</p>
-                        <div class="inputs">
+                        <h2>Safety & Savings</h2>
+                        <p>Protect yourself from unexpected bills and build your future.</p>
+                        <div class="inputs_buffer-goals">
                             <label for="buffer-range">Risk Protection: <span id="buffer-pct">10</span>%
                                 <br><span>We recommend 10-15% for safety</span>
                             </label>
                             <input type="range" id="buffer-range" min="0" max="30" value="10">
+
+                            <label for="savings-range" style="margin-top: 15px; display: block;">Savings Goal: <span id="savings-pct">5</span>%
+                                <br><span>Pay yourself first!</span>
+                            </label>
+                            <input type="range" id="savings-range" min="0" max="50" value="5">
                             
                             <div class="buffer-info">
-                                <p>Reserved Amount: <strong id="reserved-sum">$0.00</strong></p>
-                                <p>Available for Spending: <strong id="available-sum">$0.00</strong></p>
+                                <p>Risk Buffer: <strong id="reserved-sum">$0.00</strong></p>
+                                <p>Savings: <strong id="savings-sum">$0.00</strong></p>
+                                <hr>
+                                <p>Available for Spending: <strong id="available-sum" style="color: #2ecc71;">$0.00</strong></p>
                             </div>
                         </div>
                     </div>
